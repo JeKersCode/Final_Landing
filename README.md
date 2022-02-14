@@ -2,4 +2,4 @@
  
 Реализован с помощью препроцессора SASS В синтаксисе SCSS через Prepros
 
-![Screen](./Screenshot Landing2.png)
+![Screen](Screenshot Landing2.png)
