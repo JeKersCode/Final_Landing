@@ -1,0 +1,15 @@
+@import './base/base';
+@import './base/reset';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+// block1
+@import './blocks/block1.scss';
+@import './blocks/nav';
+@import './blocks/content';
+
+// block2
+@import './blocks/block2';
+@import './blocks/main_content';
+
+//block3
+@import './blocks/card_block';
