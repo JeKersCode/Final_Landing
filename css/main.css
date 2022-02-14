@@ -22,6 +22,9 @@ button:hover {
   margin: 0 auto;
   padding: 0 15px 55px;
 }
+.container:last-child {
+  padding-bottom: 0;
+}
 
 * {
   -webkit-box-sizing: border-box;
@@ -54,6 +57,10 @@ ul, li {
   background-repeat: no-repeat;
   background-position-x: right;
   background-size: 68%;
+}
+
+.block1 p {
+  margin-bottom: 69px;
 }
 
 .nav {
@@ -122,7 +129,6 @@ ul, li {
 .content p {
   font-size: 18px;
   line-height: 1.66;
-  margin-bottom: 69px;
 }
 
 .content__btn {
@@ -157,6 +163,10 @@ ul, li {
   background-position-x: right;
   background-position-y: top;
   background-size: 48%;
+}
+
+.block2 p {
+  margin-bottom: 80px;
 }
 
 .main__content {
@@ -223,4 +233,124 @@ ul, li {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.7;
+}
+
+#block4 {
+  max-width: 100%;
+  height: 800px;
+  margin: 0 auto;
+  background-image: url("./../img/Rectangle.svg");
+  background-position-x: right;
+  background-size: 110%;
+}
+
+.main__price {
+  max-width: 600px;
+  padding-top: 200px;
+  margin-top: 50px;
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.price__content p {
+  text-align: center;
+  color: #6F7CB2;
+  margin-bottom: 35px;
+}
+
+.price__price h3 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.32;
+  letter-spacing: 1px;
+  color: #222F65;
+}
+.price__price p {
+  margin-bottom: 60px;
+}
+
+.price__btn p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #5D6970;
+  margin-bottom: 9px;
+}
+.price__btn button {
+  margin: 0 auto;
+  width: 189px;
+  height: 32px;
+  background-color: #111B47;
+  color: #fff;
+}
+
+#footer {
+  max-width: 100%;
+  height: 216px;
+  margin: 0 auto;
+  background-color: #E7ECFF;
+}
+
+.footer__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 60px 0 40px;
+  border-bottom: 1px solid #CDD1D4;
+}
+
+.company {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #939EA4;
+}
+
+.footer__btn button {
+  width: 109px;
+  height: 26px;
+  background-color: #111B47;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0 30px;
+}
+
+.footer__nav {
+  color: #929ECC;
+}
+
+.social__img {
+  width: 16px;
+  height: 16px;
+  margin-right: 30px;
+}
+.social__img:last-child {
+  margin-right: 0;
 }

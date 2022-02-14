@@ -1,0 +1,44 @@
+.footer__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0 40px;
+    border-bottom: 1px solid #CDD1D4;
+}
+
+.company {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #939EA4;
+}
+
+.footer__btn {
+    button{
+        width: 109px;
+        height: 26px;
+        background-color: #111B47;
+        color: #fff;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 30px;
+}
+
+.footer__nav {
+    color: #929ECC;
+}
+
+.social__img {
+    width: 16px;
+    height: 16px;
+    margin-right: 30px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
