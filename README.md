@@ -1,3 +1,5 @@
-# Final_Landing
+# Final Landing LearnUp
  
-![alt text](./Screenshot Landing2.png)​
+Реализован с помощью препроцессора SASS В синтаксисе SCSS через Prepros
+
+![Screen](./Screenshot Landing2.png)
